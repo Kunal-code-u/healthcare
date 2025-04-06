@@ -2,9 +2,12 @@ import Image from "next/image";
 
 import { AppointmentForm } from "@/components/forms/AppointmentForm";
 import { getPatient } from "@/lib/actions/patient.actions";
+// import * as Sentry from '@sentry/next.js'
 
 const Appointment = async ({ params: { userId } }: SearchParamProps) => {
   const patient = await getPatient(userId);
+
+  // Sentry.metrices.set("user_view_register", patient.name);
 
   return (
     <div className="flex h-screen max-h-screen">
