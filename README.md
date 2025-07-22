@@ -59,5 +59,6 @@ A healthcare patient management application that allows patients to easily regis
 
 👉 **Manage and Track Application Performance Using Sentry**: The application uses Sentry to monitor and track its performance and detect any errors.
 
-
+### 🌐 Live Demo
+👉 [View Deployed App](https://healthcare-rho-nine.vercel.app/)
 
